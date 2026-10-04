@@ -1,0 +1,669 @@
+<!-- DEBUG-VIEW START 1 APPPATH/Views/hawan-booking.php -->
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from maabaglamukhiofficial.org/webservices/hawan-booking by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 24 Feb 2026 05:33:20 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<script type="text/javascript"  id="debugbar_loader" data-time="1771911120" src="index0880.html?debugbar"></script><script type="text/javascript"  id="debugbar_dynamic_script"></script><style type="text/css"  id="debugbar_dynamic_style"></style><script  class="kint-rich-script">void 0===window.kintShared&&(window.kintShared=function(){"use strict";var e={dedupe:function(e,n){return[].forEach.call(document.querySelectorAll(e),function(e){e!==(n=!n||!n.ownerDocument.contains(n)?e:n)&&e.parentNode.removeChild(e)}),n},runOnce:function(e){"complete"===document.readyState?e():window.addEventListener("load",e)}};return window.addEventListener("click",function(e){var n;e.target.classList.contains("kint-ide-link")&&((n=new XMLHttpRequest).open("GET.html",e.target.href),n.send(null),e.preventDefault())}),e}());
+void 0===window.kintRich&&(window.kintRich=function(){"use strict";var i={selectText:function(e){var t=window.getSelection(),a=document.createRange();a.selectNodeContents(e),t.removeAllRanges(),t.addRange(a)},each:function(e,t){Array.prototype.slice.call(document.querySelectorAll(e),0).forEach(t)},hasClass:function(e,t){return!!e.classList&&e.classList.contains(t=void 0===t?"kint-show":t)},addClass:function(e,t){e.classList.add(t=void 0===t?"kint-show":t)},removeClass:function(e,t){return e.classList.remove(t=void 0===t?"kint-show":t),e},toggle:function(e,t){var a=i.getChildren(e);a&&((t=void 0===t?i.hasClass(e):t)?i.removeClass(e):i.addClass(e),1===a.childNodes.length&&(a=a.childNodes[0].childNodes[0])&&i.hasClass(a,"kint-parent")&&i.toggle(a,t))},toggleChildren:function(e,t){var a=i.getChildren(e);if(a){var o=a.getElementsByClassName("kint-parent"),r=o.length;for(void 0===t&&(t=!i.hasClass(e));r--;)i.toggle(o[r],t)}},toggleAll:function(e){for(var t=document.getElementsByClassName("kint-parent"),a=t.length,o=!i.hasClass(e.parentNode);a--;)i.toggle(t[a],o)},switchTab:function(e){var t=e.previousSibling,a=0;for(i.removeClass(e.parentNode.getElementsByClassName("kint-active-tab")[0],"kint-active-tab"),i.addClass(e,"kint-active-tab");t;)1===t.nodeType&&a++,t=t.previousSibling;for(var o=e.parentNode.nextSibling.childNodes,r=0;r<o.length;r++)r===a?(i.addClass(o[r]),1===o[r].childNodes.length&&(t=o[r].childNodes[0].childNodes[0])&&i.hasClass(t,"kint-parent")&&i.toggle(t,!1)):i.removeClass(o[r])},mktag:function(e){return"<"+e+">"},openInNewWindow:function(e){var t=window.open();t&&(t.document.open(),t.document.write(i.mktag("html")+i.mktag("head")+i.mktag("title")+"Kint ("+(new Date).toISOString()+")"+i.mktag("/title")+i.mktag('meta charset="utf-8"')+document.getElementsByClassName("kint-rich-script")[0].outerHTML+document.getElementsByClassName("kint-rich-style")[0].outerHTML+i.mktag("/head")+i.mktag("body")+'<input style="width: 100%" placeholder="Take some notes!"><div class="kint-rich">'+e.parentNode.outerHTML+"</div>"+i.mktag("/body")),t.document.close())},sortTable:function(e,a){var t=e.tBodies[0];[].slice.call(e.tBodies[0].rows).sort(function(e,t){if(e=e.cells[a].textContent.trim().toLocaleLowerCase(),t=t.cells[a].textContent.trim().toLocaleLowerCase(),isNaN(e)||isNaN(t)){if(isNaN(e)&&!isNaN(t))return 1;if(isNaN(t)&&!isNaN(e))return-1}else e=parseFloat(e),t=parseFloat(t);return e<t?-1:t<e?1:0}).forEach(function(e){t.appendChild(e)})},showAccessPath:function(e){for(var t=e.childNodes,a=0;a<t.length;a++)if(i.hasClass(t[a],"access-path"))return void(i.hasClass(t[a],"kint-show")?i.removeClass(t[a]):(i.addClass(t[a]),i.selectText(t[a])))},showSearchBox:function(e){var t=e.querySelector(".kint-search");t&&(i.hasClass(t)?(i.removeClass(t),i.removeClass(e.parentNode,"kint-search-root")):(i.addClass(e),i.addClass(t),t.focus(),t.select(),i.search(e.parentNode,t.value)))},search:function(e,t){var a=e.querySelectorAll(".kint-search-match");[].forEach.call(a,function(e){i.removeClass(e,"kint-search-match")}),i.removeClass(e,"kint-search-match"),t.length?(i.addClass(e,"kint-search-root"),i.findMatches(e,t)):i.removeClass(e,"kint-search-root")},findMatches:function(e,t){var a,o,r,s=e.cloneNode(!0);if(s.querySelectorAll(".access-path").forEach(function(e){e.remove()}),-1!=s.textContent.toUpperCase().indexOf(t.toUpperCase())){for(n in i.addClass(e,"kint-search-match"),e.childNodes)if("DD"==e.childNodes[n].tagName){a=e.childNodes[n];break}if(a)if([].forEach.call(a.childNodes,function(e){"DL"==e.tagName?i.findMatches(e,t):"UL"==e.tagName&&(i.hasClass(e,"kint-tabs")?o=e.childNodes:i.hasClass(e,"kint-tab-contents")&&(r=e.childNodes))}),o&&r&&o.length==r.length)for(var n=0;n<o.length;n++){var l=!1;-1!=o[n].textContent.toUpperCase().indexOf(t.toUpperCase())?l=!0:((s=r[n].cloneNode(!0)).querySelectorAll(".access-path").forEach(function(e){e.remove()}),-1!=s.textContent.toUpperCase().indexOf(t.toUpperCase())&&(l=!0)),l&&(i.addClass(o[n],"kint-search-match"),[].forEach.call(r[n].childNodes,function(e){"DL"==e.tagName&&i.findMatches(e,t)}))}}},getParentByClass:function(e,t){for(void 0===t&&(t="kint-rich");(e=e.parentNode)&&!i.hasClass(e,t););return e},getParentHeader:function(e,t){for(var a=e.nodeName.toLowerCase();"dd"!==a&&"dt"!==a&&i.getParentByClass(e);)a=(e=e.parentNode).nodeName.toLowerCase();return i.getParentByClass(e)?(e="dd"===a&&t?e.previousElementSibling:e)&&"dt"===e.nodeName.toLowerCase()&&i.hasClass(e,"kint-parent")?e:void 0:null},getChildren:function(e){for(;(e=e.nextElementSibling)&&"dd"!==e.nodeName.toLowerCase(););return e},isFolderOpen:function(){if(i.folder&&i.folder.querySelector("dd.kint-foldout"))return i.hasClass(i.folder.querySelector("dd.kint-foldout").previousSibling)},initLoad:function(){i.style=window.kintShared.dedupe("style.kint-rich-style",i.style),i.script=window.kintShared.dedupe("script.kint-rich-script",i.script),i.folder=window.kintShared.dedupe(".kint-rich.kint-folder",i.folder);var t,e=document.querySelectorAll("input.kint-search");[].forEach.call(e,function(t){function e(e){window.clearTimeout(a),t.value!==o&&(a=window.setTimeout(function(){o=t.value,i.search(t.parentNode.parentNode,o)},500))}var a=null,o=null;t.removeEventListener("keyup",e),t.addEventListener("keyup",e)}),i.folder&&(t=i.folder.querySelector("dd"),[].forEach.call(document.querySelectorAll(".kint-rich.kint-file"),function(e){e.parentNode!==i.folder&&t.appendChild(e)}),document.body.appendChild(i.folder),i.addClass(i.folder))},keyboardNav:{targets:[],target:0,active:!1,fetchTargets:function(){var e=i.keyboardNav.targets[i.keyboardNav.target];i.keyboardNav.targets=[],i.each(".kint-rich nav, .kint-tabs>li:not(.kint-active-tab)",function(e){i.isFolderOpen()&&!i.folder.contains(e)||0===e.offsetWidth&&0===e.offsetHeight||i.keyboardNav.targets.push(e)}),e&&-1!==i.keyboardNav.targets.indexOf(e)&&(i.keyboardNav.target=i.keyboardNav.targets.indexOf(e))},sync:function(e){var t=document.querySelector(".kint-focused");t&&i.removeClass(t,"kint-focused"),i.keyboardNav.active&&(t=i.keyboardNav.targets[i.keyboardNav.target],i.addClass(t,"kint-focused"),e||i.keyboardNav.scroll(t))},scroll:function(e){var t,a;e!==i.folder.querySelector("dt > nav")&&(a=(t=function(e){return e.offsetTop+(e.offsetParent?t(e.offsetParent):0)})(e),i.isFolderOpen()?(e=i.folder.querySelector("dd.kint-foldout")).scrollTo(0,a-e.clientHeight/2):window.scrollTo(0,a-window.innerHeight/2))},moveCursor:function(e){for(i.keyboardNav.target+=e;i.keyboardNav.target<0;)i.keyboardNav.target+=i.keyboardNav.targets.length;for(;i.keyboardNav.target>=i.keyboardNav.targets.length;)i.keyboardNav.target-=i.keyboardNav.targets.length;i.keyboardNav.sync()},setCursor:function(e){if(i.isFolderOpen()&&!i.folder.contains(e))return!1;i.keyboardNav.fetchTargets();for(var t=0;t<i.keyboardNav.targets.length;t++)if(e===i.keyboardNav.targets[t])return i.keyboardNav.target=t,!0;return!1}},mouseNav:{lastClickTarget:null,lastClickTimer:null,lastClickCount:0,renewLastClick:function(){window.clearTimeout(i.mouseNav.lastClickTimer),i.mouseNav.lastClickTimer=window.setTimeout(function(){i.mouseNav.lastClickTarget=null,i.mouseNav.lastClickTimer=null,i.mouseNav.lastClickCount=0},250)}},style:null,script:null,folder:null};return window.addEventListener("click",function(e){var t=e.target,a=t.nodeName.toLowerCase();if(i.mouseNav.lastClickTarget&&i.mouseNav.lastClickTimer&&i.mouseNav.lastClickCount)return t=i.mouseNav.lastClickTarget,void(1===i.mouseNav.lastClickCount?(i.toggleChildren(t.parentNode),i.keyboardNav.setCursor(t),i.keyboardNav.sync(!0),i.mouseNav.lastClickCount++,i.mouseNav.renewLastClick()):(i.toggleAll(t),i.keyboardNav.setCursor(t),i.keyboardNav.sync(!0),i.keyboardNav.scroll(t),window.clearTimeout(i.mouseNav.lastClickTimer),i.mouseNav.lastClickTarget=null,i.mouseNav.lastClickTarget=null,i.mouseNav.lastClickCount=0));if(i.getParentByClass(t)){if("dfn"===a)i.selectText(t);else if("th"===a)return void(e.ctrlKey||i.sortTable(t.parentNode.parentNode.parentNode,t.cellIndex));if((t=i.getParentHeader(t))&&(i.keyboardNav.setCursor(t.querySelector("nav")),i.keyboardNav.sync(!0)),t=e.target,"li"===a&&"kint-tabs"===t.parentNode.className)"kint-active-tab"!==t.className&&i.switchTab(t),(t=i.getParentHeader(t,!0))&&(i.keyboardNav.setCursor(t.querySelector("nav")),i.keyboardNav.sync(!0));else if("nav"===a)"footer"===t.parentNode.nodeName.toLowerCase()?(i.keyboardNav.setCursor(t),i.keyboardNav.sync(!0),t=t.parentNode,i.hasClass(t)?i.removeClass(t):i.addClass(t)):(i.toggle(t.parentNode),i.keyboardNav.fetchTargets(),i.mouseNav.lastClickCount=1,i.mouseNav.lastClickTarget=t,i.mouseNav.renewLastClick());else if(i.hasClass(t,"kint-popup-trigger")){var o=t.parentNode;if("footer"===o.nodeName.toLowerCase())o=o.previousSibling;else for(;o&&!i.hasClass(o,"kint-parent");)o=o.parentNode;i.openInNewWindow(o)}else i.hasClass(t,"kint-access-path-trigger")?i.showAccessPath(t.parentNode):i.hasClass(t,"kint-search-trigger")?i.showSearchBox(t.parentNode):i.hasClass(t,"kint-search")||("pre"===a&&3===e.detail?i.selectText(t):i.getParentByClass(t,"kint-source")&&3===e.detail?i.selectText(i.getParentByClass(t,"kint-source")):i.hasClass(t,"access-path")?i.selectText(t):"a"!==a&&(t=i.getParentHeader(t))&&(i.toggle(t),i.keyboardNav.fetchTargets()))}},!0),window.addEventListener("keydown",function(e){if(e.target===document.body&&!e.altKey&&!e.ctrlKey){if(68===e.keyCode){if(i.keyboardNav.active)i.keyboardNav.active=!1;else if(i.keyboardNav.active=!0,i.keyboardNav.fetchTargets(),0===i.keyboardNav.targets.length)return void(i.keyboardNav.active=!1);return i.keyboardNav.sync(),void e.preventDefault()}if(i.keyboardNav.active){if(9===e.keyCode)return i.keyboardNav.moveCursor(e.shiftKey?-1:1),void e.preventDefault();if(38===e.keyCode||75===e.keyCode)return i.keyboardNav.moveCursor(-1),void e.preventDefault();if(40===e.keyCode||74===e.keyCode)return i.keyboardNav.moveCursor(1),void e.preventDefault();var t,a,o=i.keyboardNav.targets[i.keyboardNav.target];if("li"===o.nodeName.toLowerCase()){if(32===e.keyCode||13===e.keyCode)return i.switchTab(o),i.keyboardNav.fetchTargets(),i.keyboardNav.sync(),void e.preventDefault();if(39===e.keyCode||76===e.keyCode)return i.keyboardNav.moveCursor(1),void e.preventDefault();if(37===e.keyCode||72===e.keyCode)return i.keyboardNav.moveCursor(-1),void e.preventDefault()}o=o.parentNode,65===e.keyCode?(i.showAccessPath(o),e.preventDefault()):"footer"===o.nodeName.toLowerCase()&&i.hasClass(o.parentNode,"kint-rich")?32===e.keyCode||13===e.keyCode?(i.hasClass(o)?i.removeClass(o):i.addClass(o),e.preventDefault()):37===e.keyCode||72===e.keyCode?(i.removeClass(o),e.preventDefault()):39!==e.keyCode&&76!==e.keyCode||(i.addClass(o),e.preventDefault()):32===e.keyCode||13===e.keyCode?(i.toggle(o),i.keyboardNav.fetchTargets(),e.preventDefault()):39!==e.keyCode&&76!==e.keyCode&&37!==e.keyCode&&72!==e.keyCode||(t=37===e.keyCode||72===e.keyCode,i.hasClass(o)?i.toggleChildren(o,t):!t||(a=i.getParentHeader(o.parentNode.parentNode,!0))&&(i.keyboardNav.setCursor((o=a).querySelector("nav")),i.keyboardNav.sync()),i.toggle(o,t),i.keyboardNav.fetchTargets(),e.preventDefault())}}},!0),i}()),window.kintShared.runOnce(window.kintRich.initLoad);
+void 0===window.kintMicrotimeInitialized&&(window.kintMicrotimeInitialized=1,window.addEventListener("load",function(){"use strict";var a={},t=Array.prototype.slice.call(document.querySelectorAll("[data-kint-microtime-group]"),0);t.forEach(function(t){var i,e;t.querySelector(".kint-microtime-lap")&&(i=t.getAttribute("data-kint-microtime-group"),e=parseFloat(t.querySelector(".kint-microtime-lap").innerHTML),t=parseFloat(t.querySelector(".kint-microtime-avg").innerHTML),void 0===a[i]&&(a[i]={}),(void 0===a[i].min||a[i].min>e)&&(a[i].min=e),(void 0===a[i].max||a[i].max<e)&&(a[i].max=e),a[i].avg=t)}),t.forEach(function(t){var i,e,r,o,n=t.querySelector(".kint-microtime-lap");null!==n&&(i=parseFloat(n.textContent),o=t.dataset.kintMicrotimeGroup,e=a[o].avg,r=a[o].max,o=a[o].min,i===(t.querySelector(".kint-microtime-avg").textContent=e)&&i===o&&i===r||(n.style.background=e<i?"hsl("+(40-40*((i-e)/(r-e)))+", 100%, 65%)":"hsl("+(40+80*(e===o?0:(e-i)/(e-o)))+", 100%, 65%)"))})}));
+</script><style  class="kint-rich-style">.kint-rich{font-size:13px;overflow-x:auto;white-space:nowrap;background:rgba(255,255,255,0.9)}.kint-rich.kint-folder{position:fixed;bottom:0;left:0;right:0;z-index:999999;width:100%;margin:0;display:block}.kint-rich.kint-folder dd.kint-foldout{max-height:calc(100vh - 100px);padding-right:8px;overflow-y:scroll;display:none}.kint-rich.kint-folder dd.kint-foldout.kint-show{display:block}.kint-rich::selection,.kint-rich::-moz-selection,.kint-rich::-webkit-selection{background:#aaa;color:#1d1e1e}.kint-rich .kint-focused{box-shadow:0 0 3px 2px red}.kint-rich,.kint-rich::before,.kint-rich::after,.kint-rich *,.kint-rich *::before,.kint-rich *::after{box-sizing:border-box;border-radius:0;color:#1d1e1e;float:none !important;font-family:Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;line-height:15px;margin:0;padding:0;text-align:left}.kint-rich{margin:8px 0}.kint-rich dt,.kint-rich dl{width:auto}.kint-rich dt,.kint-rich div.access-path{background:#f8f8f8;border:1px solid #d7d7d7;color:#1d1e1e;display:block;font-weight:bold;list-style:none outside none;overflow:auto;padding:4px}.kint-rich dt:hover,.kint-rich div.access-path:hover{border-color:#aaa}.kint-rich>dl dl{padding:0 0 0 12px}.kint-rich dt.kint-parent>nav,.kint-rich>footer>nav{background:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMCAxNTAiPjxwYXRoIGQ9Ik02IDdoMThsLTkgMTV6bTAgMzBoMThsLTkgMTV6bTAgNDVoMThsLTktMTV6bTAgMzBoMThsLTktMTV6bTAgMTJsMTggMThtLTE4IDBsMTgtMTgiIGZpbGw9IiM1NTUiLz48cGF0aCBkPSJNNiAxMjZsMTggMThtLTE4IDBsMTgtMTgiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlPSIjNTU1Ii8+PC9zdmc+") no-repeat scroll 0 0/15px 75px transparent;cursor:pointer;display:inline-block;height:15px;width:15px;margin-right:3px;vertical-align:middle}.kint-rich dt.kint-parent:hover>nav,.kint-rich>footer>nav:hover{background-position:0 25%}.kint-rich dt.kint-parent.kint-show>nav,.kint-rich>footer.kint-show>nav{background-position:0 50%}.kint-rich dt.kint-parent.kint-show:hover>nav,.kint-rich>footer.kint-show>nav:hover{background-position:0 75%}.kint-rich dt.kint-parent.kint-locked>nav{background-position:0 100%}.kint-rich dt.kint-parent+dd{display:none;border-left:1px dashed #d7d7d7}.kint-rich dt.kint-parent.kint-show+dd{display:block}.kint-rich var,.kint-rich var a{color:#06f;font-style:normal}.kint-rich dt:hover var,.kint-rich dt:hover var a{color:red}.kint-rich dfn{font-style:normal;font-family:monospace;color:#1d1e1e}.kint-rich pre{color:#1d1e1e;margin:0 0 0 12px;padding:5px;overflow-y:hidden;border-top:0;border:1px solid #d7d7d7;background:#f8f8f8;display:block;word-break:normal}.kint-rich .kint-popup-trigger,.kint-rich .kint-access-path-trigger,.kint-rich .kint-search-trigger{background:rgba(29,30,30,0.8);border-radius:3px;height:16px;font-size:16px;margin-left:5px;font-weight:bold;width:16px;text-align:center;float:right !important;cursor:pointer;color:#f8f8f8;position:relative;overflow:hidden;line-height:17.6px}.kint-rich .kint-popup-trigger:hover,.kint-rich .kint-access-path-trigger:hover,.kint-rich .kint-search-trigger:hover{color:#1d1e1e;background:#f8f8f8}.kint-rich dt.kint-parent>.kint-popup-trigger{line-height:19.2px}.kint-rich .kint-search-trigger{font-size:20px}.kint-rich input.kint-search{display:none;border:1px solid #d7d7d7;border-top-width:0;border-bottom-width:0;padding:4px;float:right !important;margin:-4px 0;color:#1d1e1e;background:#f8f8f8;height:24px;width:160px;position:relative;z-index:100}.kint-rich input.kint-search.kint-show{display:block}.kint-rich .kint-search-root ul.kint-tabs>li:not(.kint-search-match){background:#f8f8f8;opacity:0.5}.kint-rich .kint-search-root dl:not(.kint-search-match){opacity:0.5}.kint-rich .kint-search-root dl:not(.kint-search-match)>dt{background:#f8f8f8}.kint-rich .kint-search-root dl:not(.kint-search-match) dl,.kint-rich .kint-search-root dl:not(.kint-search-match) ul.kint-tabs>li:not(.kint-search-match){opacity:1}.kint-rich div.access-path{background:#f8f8f8;display:none;margin-top:5px;padding:4px;white-space:pre}.kint-rich div.access-path.kint-show{display:block}.kint-rich footer{padding:0 3px 3px;font-size:9px;background:transparent}.kint-rich footer>.kint-popup-trigger{background:transparent;color:#1d1e1e}.kint-rich footer nav{height:10px;width:10px;background-size:10px 50px}.kint-rich footer>ol{display:none;margin-left:32px}.kint-rich footer.kint-show>ol{display:block}.kint-rich a{color:#1d1e1e;text-shadow:none;text-decoration:underline}.kint-rich a:hover{color:#1d1e1e;border-bottom:1px dotted #1d1e1e}.kint-rich ul{list-style:none;padding-left:12px}.kint-rich ul:not(.kint-tabs) li{border-left:1px dashed #d7d7d7}.kint-rich ul:not(.kint-tabs) li>dl{border-left:none}.kint-rich ul.kint-tabs{margin:0 0 0 12px;padding-left:0;background:#f8f8f8;border:1px solid #d7d7d7;border-top:0}.kint-rich ul.kint-tabs>li{background:#f8f8f8;border:1px solid #d7d7d7;cursor:pointer;display:inline-block;height:24px;margin:2px;padding:0 12px;vertical-align:top}.kint-rich ul.kint-tabs>li:hover,.kint-rich ul.kint-tabs>li.kint-active-tab:hover{border-color:#aaa;color:red}.kint-rich ul.kint-tabs>li.kint-active-tab{background:#f8f8f8;border-top:0;margin-top:-1px;height:27px;line-height:24px}.kint-rich ul.kint-tabs>li:not(.kint-active-tab){line-height:20px}.kint-rich ul.kint-tabs li+li{margin-left:0}.kint-rich ul.kint-tab-contents>li{display:none}.kint-rich ul.kint-tab-contents>li.kint-show{display:block}.kint-rich dt:hover+dd>ul>li.kint-active-tab{border-color:#aaa;color:red}.kint-rich dt>.kint-color-preview{width:16px;height:16px;display:inline-block;vertical-align:middle;margin-left:10px;border:1px solid #d7d7d7;background-color:#ccc;background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2 2"><path fill="%23FFF" d="M0 0h1v2h1V1H0z"/></svg>');background-size:100%}.kint-rich dt>.kint-color-preview:hover{border-color:#aaa}.kint-rich dt>.kint-color-preview>div{width:100%;height:100%}.kint-rich table{border-collapse:collapse;empty-cells:show;border-spacing:0}.kint-rich table *{font-size:12px}.kint-rich table dt{background:none;padding:2px}.kint-rich table dt .kint-parent{min-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.kint-rich table td,.kint-rich table th{border:1px solid #d7d7d7;padding:2px;vertical-align:center}.kint-rich table th{cursor:alias}.kint-rich table td:first-child,.kint-rich table th{font-weight:bold;background:#f8f8f8;color:#1d1e1e}.kint-rich table td{background:#f8f8f8;white-space:pre}.kint-rich table td>dl{padding:0}.kint-rich table pre{border-top:0;border-right:0}.kint-rich table thead th:first-child{background:none;border:0}.kint-rich table tr:hover>td{box-shadow:0 0 1px 0 #aaa inset}.kint-rich table tr:hover var{color:red}.kint-rich table ul.kint-tabs li.kint-active-tab{height:20px;line-height:17px}.kint-rich pre.kint-source{margin-left:-1px}.kint-rich pre.kint-source[data-kint-filename]:before{display:block;content:attr(data-kint-filename);margin-bottom:4px;padding-bottom:4px;border-bottom:1px solid #f8f8f8}.kint-rich pre.kint-source>div:before{display:inline-block;content:counter(kint-l);counter-increment:kint-l;border-right:1px solid #aaa;padding-right:8px;margin-right:8px}.kint-rich pre.kint-source>div.kint-highlight{background:#f8f8f8}.kint-rich .kint-microtime-lap{text-shadow:-1px 0 #aaa,0 1px #aaa,1px 0 #aaa,0 -1px #aaa;color:#f8f8f8;font-weight:bold}.kint-rich .kint-focused{box-shadow:0 0 3px 2px red}.kint-rich dt{font-weight:normal}.kint-rich dt.kint-parent{margin-top:4px}.kint-rich dl dl{margin-top:4px;padding-left:25px;border-left:none}.kint-rich>dl>dt{background:#f8f8f8}.kint-rich ul{margin:0;padding-left:0}.kint-rich ul:not(.kint-tabs)>li{border-left:0}.kint-rich ul.kint-tabs{background:#f8f8f8;border:1px solid #d7d7d7;border-width:0 1px 1px 1px;padding:4px 0 0 12px;margin-left:-1px;margin-top:-1px}.kint-rich ul.kint-tabs li,.kint-rich ul.kint-tabs li+li{margin:0 0 0 4px}.kint-rich ul.kint-tabs li{border-bottom-width:0;height:25px}.kint-rich ul.kint-tabs li:first-child{margin-left:0}.kint-rich ul.kint-tabs li.kint-active-tab{border-top:1px solid #d7d7d7;background:#fff;font-weight:bold;padding-top:0;border-bottom:1px solid #fff !important;margin-bottom:-1px}.kint-rich ul.kint-tabs li.kint-active-tab:hover{border-bottom:1px solid #fff}.kint-rich ul>li>pre{border:1px solid #d7d7d7}.kint-rich dt:hover+dd>ul{border-color:#aaa}.kint-rich pre{background:#fff;margin-top:4px;margin-left:25px}.kint-rich .kint-source{margin-left:-1px}.kint-rich .kint-source .kint-highlight{background:#cfc}.kint-rich .kint-parent.kint-show>.kint-search{border-bottom-width:1px}.kint-rich table td{background:#fff}.kint-rich table td>dl{padding:0;margin:0}.kint-rich table td>dl>dt.kint-parent{margin:0}.kint-rich table td:first-child,.kint-rich table td,.kint-rich table th{padding:2px 4px}.kint-rich table dd,.kint-rich table dt{background:#fff}.kint-rich table tr:hover>td{box-shadow:none;background:#cfc}
+</style>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Havan Booking</title>
+  <link rel="stylesheet" href="assets/css/plugins.html">
+  <link rel="stylesheet" href="assets/css/style.html">
+  <link rel="stylesheet" href="assets/css/colors/yellow.html">
+  <link rel="stylesheet" href="assets/css/custom.html">
+  <link rel="stylesheet" href="assets/css/jquery-ui.html">
+
+  <!-- Google Font -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&amp;display=swap');
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    /* Mobile optimization */
+    @media (max-width: 768px) {
+      .content-wrapper {
+        padding: 0px;
+      }
+      h2 {
+        font-size: 28px !important;
+      }
+      .breadcrumb {
+        font-size: 14px;
+      }
+      .form-group label {
+        font-size: 14px;
+      }
+      input.form-control, select.form-control {
+        font-size: 14px;
+        padding: 10px;
+      }
+      .btn {
+        font-size: 16px;
+        padding: 10px 20px;
+      }
+      #typeDescription {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="content-wrapper">
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mata Baglamukhi Official</title>
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    '../../connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1796166508448721');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1796166508448721&amp;ev=PageView&amp;noscript=1"
+    />
+  </noscript>
+  <!-- End Meta Pixel Code -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6C6JJZDKV0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6C6JJZDKV0');
+</script>
+</head>
+
+<style>
+    @media (max-width: 576px) {
+  .navbar-brand img {
+    max-width: 340px;
+    max-height: 70px;
+    padding:0px;
+  }
+  .navbar .container {
+    padding: 0px;
+}
+}
+
+</style>
+<body>
+<header class="wrapper bg-soft-primary center-logo" style="padding: 20px;">
+  <nav class="navbar navbar-expand-lg center-nav transparent navbar-light">
+    <div class="container flex-lg-row flex-nowrap align-items-center">
+      <div class="navbar-brand w-100"> 
+        <a href="index.html"> 
+          <img src="assets/img/logo.html" srcset="https://maabaglamukhiofficial.org/webservices/assets/img/logo2.png" alt="" / height="80px width="150px" > 
+        </a> 
+      </div>
+      <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+        <div class="offcanvas-header d-lg-none">
+          <h3 class="text-white fs-30 mb-0">Mata Baglamukhi</h3>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+          <ul class="navbar-nav">
+            <li class="nav-item"> <a class="nav-link" href="../index.html">Home</a></li>
+            <li class="nav-item dropdown"> 
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Temple Bookings</a>
+              <ul class="dropdown-menu">
+                <li class="nav-item"><a class="dropdown-item" href="hawan-booking.html">Havan & Anushthan</a></li>
+                <li class="nav-item"><a class="dropdown-item" href="donation.html" target="_blank">Donation</a></li>
+                <li class="nav-item"><a class="dropdown-item" href="langar-sewa-booking.html">Langer Seva</a></li>
+                <li class="nav-item"><a class="dropdown-item" href="chola-rasam-booking.html">Chola Rasam</a></li>
+                <li class="nav-item"><a class="dropdown-item" href="aarti-bhog-booking.html">Aarti & Bhog</a></li>
+                <li class="nav-item"><a class="dropdown-item" href="jhanda-booking.html">Jhanda Rasam</a></li>
+
+
+              </ul>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="contact-us.html">Contact Us</a></li>
+          </ul>
+          
+          <div class="offcanvas-footer d-lg-none">
+            <div> 
+              <a href="mailto:info@maabaglamukhiofficial.org" class="link-inverse">info@maabaglamukhiofficial.org</a> <br />
+              +91-98165-00036 <br />
+              <nav class="nav social social-white mt-4"> 
+                <a href="#"><i class="uil uil-twitter"></i></a> 
+                <a href="https://www.facebook.com/ShriBaglamukhiofficial" target="_blank"><i class="uil uil-facebook-f"></i></a> 
+                <a href="https://www.instagram.com/maaBaglamukhiOfficial/" target="_blank"><i class="uil uil-instagram"></i></a> 
+                <a href="https://www.youtube.com/channel/UC-DyAM9-SbigbXdIpFfL8Gg" target="_blank"><i class="uil uil-youtube"></i></a> 
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<div class="navbar-other w-100 d-flex ms-auto">
+      
+      </div>
+    </div>
+  </nav>
+
+  <div class="offcanvas offcanvas-end text-inverse" id="offcanvas-info" data-bs-scroll="true">
+    <div class="offcanvas-header">
+      <h4 class="text-white fs-24 mb-0 text-ma">Mata Baglamukhi</h4>
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body pb-6">
+      <div class="widget mb-8">
+        <h4 class="widget-title text-white mb-3">Contact Info</h4>
+        <address>
+          Bankhandi (NH503) Post Office Bankhandi, Distt, Kangra, Himachal Pradesh 177114
+        </address>
+        <a href="mailto:info@maabaglamukhiofficial.org">info@maabaglamukhiofficial.org</a><br />
+        +91-98165-00036 
+      </div>
+
+      <div class="widget">
+        <h4 class="widget-title text-white mb-3">Follow Us</h4>
+        <nav class="nav social social-white"> 
+          <a href="https://www.facebook.com/ShriBaglamukhiofficial" target="_blank"><i class="uil uil-facebook-f"></i></a> 
+          <a href="https://www.instagram.com/maaBaglamukhiOfficial/" target="_blank"><i class="uil uil-instagram"></i></a> 
+          <a href="https://www.youtube.com/channel/UC-DyAM9-SbigbXdIpFfL8Gg" target="_blank"><i class="uil uil-youtube"></i></a> 
+        </nav>
+      </div>
+    </div>
+  </div>
+  
+  <style>
+  @media (max-width: 768px) {
+    .mobile-footer-icons {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #ae0000;
+      padding: 5px 0;
+      z-index: 999999;
+ 
+    }
+
+    .mobile-footer-icons a {
+      color: #fff;
+      text-align: center;
+      font-size: 14px;
+      flex: 1;
+      text-decoration: none;
+    }
+
+    .mobile-footer-icons i {
+      display: block;
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+  }
+
+  @media (min-width: 769px) {
+    .mobile-footer-icons {
+      display: none;
+    }
+  }
+</style>
+
+<div class="mobile-footer-icons">
+  <a href="../index.html">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 19v-8.5a1 1 0 0 0-.4-.8l-7-5.25a1 1 0 0 0-1.2 0l-7 5.25a1 1 0 0 0-.4.8V19a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1"/></svg><br>
+    <span>Home</span>
+  </a>
+  <a href="donation.html">
+   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M1 12C1 5.925 5.925 1 12 1s11 4.925 11 11s-4.925 11-11 11S1 18.075 1 12m7-6a1 1 0 0 0 0 2h3c.34 0 .872.11 1.29.412c.19.136.372.321.505.588H7.997a1 1 0 1 0 0 2h4.798a1.6 1.6 0 0 1-.504.588A2.35 2.35 0 0 1 11 12H7.997a1 1 0 0 0-.625 1.781l5.003 4a1 1 0 1 0 1.25-1.562L10.848 14h.15c.661 0 1.629-.19 2.46-.789A3.62 3.62 0 0 0 14.896 11H16a1 1 0 1 0 0-2h-1.104a3.8 3.8 0 0 0-.367-1H16a1 1 0 1 0 0-2z" clip-rule="evenodd"/></svg><br>
+    <span>Donation</span>
+  </a>
+  <a href="../portal/langar-sewa-booking.html">
+   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M19 17q-.425 0-.712-.288T18 16v-2h-2q-.425 0-.712-.288T15 13t.288-.712T16 12h2v-2q0-.425.288-.712T19 9t.713.288T20 10v2h2q.425 0 .713.288T23 13t-.288.713T22 14h-2v2q0 .425-.288.713T19 17M1.75 23.625v-3.8zm9.25-3.3q-.35 0-.7-.125t-.625-.4q-1.1-1-2.6-2.275t-2.85-2.737t-2.287-3.063T1 8.475q0-2.35 1.575-3.912T6.5 3q1.3 0 2.475.538T11 5.075q.85-1 2.025-1.537T15.5 3q1.575 0 2.788.738T20.2 5.6q.275.475-.087.963T19.075 7h-.4q-2.125 0-3.9 1.713T13 13q0 1.05.338 1.988T14.4 16.7q.275.3.238.7t-.338.675l-1.975 1.75q-.275.275-.625.388t-.7.112"/></svg><br>
+    <span>Seva</span>
+  </a>
+</div>
+
+</header>
+</body>
+
+<!-- Mirrored from maabaglamukhiofficial.org/webservices/hawan-booking by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 24 Feb 2026 05:33:20 GMT -->
+</html>
+    <section class="wrapper bg-breadcrumb">
+      <div class="container py-3 py-md-5">
+        <nav class="d-inline-block" aria-label="breadcrumb">
+          <ol class="breadcrumb mb-0">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Havan & Anushthan</li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+
+    <section class="wrapper">
+      <div class="container">
+        <div style="background: white; padding: 20px; border-radius: 10px; margin: auto; text-align:left;">
+          <div style="text-align: center;">
+            <h2 style="color: #8a2e2e; font-weight: bold; font-size: 42px; text-transform: uppercase;">Havan & Anushthan</h2>
+            <p style="color: #333; font-size: 16px; line-height: 1.6;">
+              <span style="font-weight: bold;">Havan:</span>  
+              Havan at Bankhandi is a powerful ritual where sacred offerings invoke Maa Baglamukhi’s energy. The fire burns away negativity, shielding devotees from obstacles and adversaries.
+              <br><br>
+              <span style="font-weight: bold;">Anushthan:</span>  
+              Special rituals invoke Maa Baglamukhi’s power through mantra recitations. Each anusthan is performed for protection, success and fulfillment of wishes.
+              <br><br>
+              <span style="font-weight: bold;">Puja:</span>  
+              Daily pujas at Maa Baglamukhi Temple in Bankhandi invoke her divine blessings, filling the temple with sacred fragrances. Devotees believe this ritual strengthens their spiritual connection, ensuring protection and prosperity.
+            </p>
+          </div>
+        </div>
+
+        <div class="container" style="padding-top:30px;">
+          <div class="panel panel-info">
+            <div class="panel-body">
+              <div class="rowhead">Booking for Havan & Anushthan</div>
+              <form action="https://maabaglamukhiofficial.org/webservices/hawan-booking/store" method="post" id="hawanBookingForm">
+
+                <input type="hidden" name="id" value="699d37d0ea841">
+
+                <div class="row">
+                  <div class="form-group col-12">
+                    <label>Booking For <span class="req">*</span></label>
+                    <select name="booking_type" id="bookingType" class="form-control" required>
+                      <option value="">Select Booking Type</option>
+                      <option value="Puja">Puja</option>
+                      <option value="Hawan">Havan</option>
+                      <option value="Anusthan">Anushthan</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="row" id="typeDetailRow" style="display: none;">
+                  <div class="form-group col-12">
+                    <label>Type Detail <span class="req">*</span></label>
+                    <select name="type_detail" id="typeDetail" class="form-control" required></select>
+                  </div>
+                </div>
+
+                <div class="row" id="typeDescriptionRow" style="display: none;">
+                  <div class="form-group col-12">
+                    <p id="typeDescription" style="background: #fff3cd; padding: 10px; border-radius: 5px; color: #8a2e2e; font-size: 16px; font-weight:500"></p>
+                  </div>
+                </div>
+
+                <div class="row" id="pujaDetailsRow" style="display: none;">
+                  <div class="form-group col-12">
+                    <label>Enter Puja Details <span class="req">*</span></label>
+                    <input type="text" name="puja_details" id="pujaDetails" class="form-control">
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="form-group col-12">
+                    <label>Booking Date <span class="req">*</span></label>
+                    <input type="text" name="booking_date" id="booking_date" class="form-control" required>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="form-group col-12">
+                    <label>Name <span class="req">*</span></label>
+                    <input type="text" name="name" class="form-control" required>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="form-group col-12">
+                    <label>Email <span class="req">*</span></label>
+                    <input type="email" name="email" class="form-control" required>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="form-group col-6">
+                    <label>Mobile No <span class="req">*</span></label>
+                    <input type="text" name="mobile_no" class="form-control" required minlength="10" maxlength="10">
+                  </div>
+                  <div class="form-group col-6">
+                    <label>Confirm Mobile No <span class="req">*</span></label>
+                    <input type="text" name="confirm_mobile_no" class="form-control" required minlength="10" maxlength="10">
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="form-group col-6">
+                    <label>Verification ID <span class="req">*</span></label>
+                    <select name="verification_id_details" class="form-control" required>
+                      <option value="">Select ID Type</option>
+                      <option value="Aadhar">Aadhar Card</option>
+                      <option value="PAN">PAN Card</option>
+                      <option value="Passport">Passport</option>
+                      <option value="Voter ID">Voter ID</option>
+                      <option value="Driving License">Driving License</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-6">
+                    <label>Verification ID Details <span class="req">*</span></label>
+                    <input type="text" name="verification_id" class="form-control" required>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="form-group col-12">
+                    <label>Address <span class="req">*</span></label>
+                    <input type="text" name="address" class="form-control" required>
+                  </div>
+                </div>
+
+                <input type="hidden" name="created_at" value="2026-02-24 11:02:00">
+<br>
+             <div class="row">
+  <div class="form-group col-12">
+    <button type="submit" class="btn btn-primary w-100" style="background-color:#c7421e; border:none; padding: 12px 20px; font-size: 16px; font-weight: 600; border-radius: 6px;">
+      Book Now
+    </button>
+  </div>
+</div>
+
+
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="text-inverse" style="background-color: #891612;">
+  <!-- Footer Content Without Popup -->
+  <div class="container pt-3 pb-3">
+    <div class="row gy-3 justify-content-center text-center">
+      <div class="col-12">
+        <p class="mb-2" style="font-size: 14px; line-height: 20px; color:white">
+          Copyright &copy; Mata Baglamukhi Temple Kangra 2025. All Rights Reserved.
+        </p>
+        <div class="social social-white">
+          <a href="https://www.facebook.com/ShriBaglamukhiofficial" target="_blank" style="margin: 0 10px; font-size: 18px;">
+            <i class="uil uil-facebook-f"></i>
+          </a>
+          <a href="https://www.instagram.com/maaBaglamukhiOfficial" target="_blank" style="margin: 0 10px; font-size: 18px;">
+            <i class="uil uil-instagram"></i>
+          </a>
+          <a href="https://www.youtube.com/channel/UC-DyAM9-SbigbXdIpFfL8Gg" target="_blank" style="margin: 0 10px; font-size: 18px;">
+            <i class="uil uil-youtube"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+<script src="assets/js/jquery.min.html"></script>
+<script src="assets/js/jquery-ui.html"></script>
+<script>
+$(document).ready(function() {
+    $('#booking_date').datepicker({
+        minDate: 0,
+        maxDate: 90,
+        dateFormat: 'dd-mm-yy'
+    });
+
+    var typeOptions = {
+        "Hawan": ["Sukh Shanti", "Court Cases", "Political Victory", "SantaanPrapti", "Shatru/Tantra Badha", "VyaparVriddhi", "Navagraha Shanti", "SarvaKarya Siddhi", "SarvaManokamna", "Dosh Nivaran", "Dhan Lakshmi Prapti","Other"],
+        "Anusthan": ["31,000 Mantra Jaap", "1,25,000 Mantra Jaap", "MahaMrityunjaya Path Prathamcharan", "Maha Mantra Jaap", "MahaMrityunjaya Path"],
+        "Puja" : ["Holy Puja"]
+        
+    };
+
+    $('#bookingType').change(function() {
+        var selectedType = $(this).val();
+        var typeDetailSelect = $('#typeDetail');
+        console.log("Selected Type: " + selectedType); // Debug line
+
+        if (selectedType && typeOptions[selectedType]) {
+            typeDetailSelect.empty().append('<option value="">Select Type Detail</option>');
+            typeOptions[selectedType].forEach(function(option) {
+                typeDetailSelect.append('<option value="' + option + '">' + option + '</option>');
+            });
+            $('#typeDetailRow').show();
+        } else {
+            $('#typeDetailRow').hide();
+            typeDetailSelect.empty();
+        }
+    });
+
+    $('#hawanBookingForm').submit(function(event) {
+        // Check if required fields are filled
+        var isValid = true;
+
+        $('#hawanBookingForm input[required], #hawanBookingForm select[required]').each(function() {
+            if ($(this).val() === '') {
+                isValid = false;
+                $(this).addClass('is-invalid');
+            } else {
+                $(this).removeClass('is-invalid');
+            }
+        });
+
+        if (!isValid) {
+            event.preventDefault(); // Prevent form submission if validation fails
+            alert("Please fill in all required fields.");
+        }
+    });
+});
+
+</script>
+<script>
+$(document).ready(function() {
+    var typeOptions = {
+        "Hawan": {
+            "Sukh Shanti": "This havan invokes Maa Baglamukhi’s calming energies for peace and harmony. It helps dispel conflicts, restoring tranquility in personal and family life.",
+            "Court Cases": "A special havan is performed to seek divine intervention in legal matters. The sacred fire is believed to burn away legal entanglements, ensuring justice and victory.",
+            "Political Victory": "Political aspirants perform this havan to seek leadership success. The ritual strengthens their influence and silences opposition with divine blessings.",
+            "SantaanPrapti": "This havan is performed for couples seeking blessings for a child. It removes obstacles to fertility, inviting Maa Baglamukhi’s divine grace for a healthy offspring.",
+            "Shatru/Tantra Badha": "A powerful havan to neutralise enemies and counteract black magic. The flames act as a shield, protecting devotees from negative forces.",
+            "VyaparVriddhi": "This havan attracts prosperity and success in business ventures. It removes financial hurdles and brings stability in trade and commerce.",
+            "Navagraha Shanti": "Performed to appease the nine planets and balance planetary influences. The ritual promotes harmony, reduces doshas and ensures smooth life progress.",
+            "SarvaKarya Siddhi": "A havan for success in all endeavours, be it personal, professional or spiritual. It strengthens determination and ensures favourable outcomes.",
+            "SarvaManokamna": "This havan fulfills devotees’ deepest desires, be it wealth, love or peace. The sacred fire carries their wishes to Maa Baglamukhi for manifestation.",
+            "Dosh Nivaran": "A remedy to cleanse karmic and astrological faults affecting life. The havan purifies the soul, removing obstacles and suffering.",
+            "Dhan Lakshmi Prapti": "A special havan performed for attracting wealth and financial growth through divine blessings.",
+            "Other"
+            
+        },
+        "Anusthan": {
+            "31,000 Mantra Jaap": "A devotional practice where 31,000 mantras are chanted for strength and obstacle removal. This anusthan enhances spiritual connection and resilience.",
+            "1,25,000 Mantra Jaap": "A deeper spiritual commitment for major life transformations. Chanting this extensive number of mantras invites divine blessings for success and protection.",
+            "MahaMrityunjaya Path Prathamcharan": "A sacred recitation seeking Lord Shiva’s blessings for health and longevity. The first phase of this path strengthens one’s spiritual and physical well-being.",
+            "Maha Mantra Jaap": "A meditative chanting practice invoking Maa Baglamukhi’s supreme energy. This anusthan clears mental and emotional barriers, bringing clarity and empowerment.",
+            "MahaMrityunjaya Path": "A full recitation of the MahaMrityunjaya Mantra for protection from illnesses and misfortunes. It fosters healing, peace and spiritual balance."
+        },
+        "Puja": {
+            "Holy Puja": "Pujas at Maa Baglamukhi Temple in Bankhandi invoke her divine blessings, filling the temple with sacred fragrances. Devotees believe this ritual strengthens their spiritual connection, ensuring protection and prosperity."
+        }
+    };
+
+    $('#bookingType').change(function() {
+        var selectedType = $(this).val();
+        var typeDetailSelect = $('#typeDetail');
+        
+        if (selectedType && typeOptions[selectedType]) {
+            typeDetailSelect.empty().append('<option value="">Select Type Detail</option>');
+            $.each(typeOptions[selectedType], function(option, desc) {
+                typeDetailSelect.append('<option value="' + option + '">' + option + '</option>');
+            });
+            $('#typeDetailRow').show();
+            $('#typeDescriptionRow').hide();
+        } else {
+            $('#typeDetailRow').hide();
+            $('#typeDescriptionRow').hide();
+            typeDetailSelect.empty();
+        }
+    });
+
+    $('#typeDetail').change(function() {
+        var selectedType = $('#bookingType').val();
+        var selectedDetail = $(this).val();
+
+        if (selectedType && selectedDetail && typeOptions[selectedType][selectedDetail]) {
+            $('#typeDescription').text(typeOptions[selectedType][selectedDetail]);
+            $('#typeDescriptionRow').show();
+        } else {
+            $('#typeDescriptionRow').hide();
+        }
+    });
+});
+</script>
+<script src="assets/js/jquery.min.html"></script>
+<script>
+    $(document).ready(function() {
+        $('#bookingType').change(function() {
+            var selectedType = $(this).val();
+            if (selectedType === "Puja") {
+                $('#pujaDetailsRow').show();
+                $('#pujaDetails').prop('required', true);
+            } else {
+                $('#pujaDetailsRow').hide();
+                $('#pujaDetails').prop('required', false);
+            }
+        });
+    });
+</script>
+
+<!-- Include jQuery UI -->
+<link rel="stylesheet" href="../../code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="../../code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="../../code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+<script>
+$(document).ready(function() {
+    var bookedDates = [];
+
+    // Step 1: Get all booked dates
+    $.ajax({
+        url: 'https://maabaglamukhiofficial.org/webservices/hawan/getBookedDates',
+        method: 'GET',
+        dataType: 'json',
+        success: function(response) {
+            if (response.booked_dates) {
+                bookedDates = response.booked_dates;
+            }
+
+            // Step 2: Initialize datepicker after fetching booked dates
+            $('#booking_date').datepicker({
+                dateFormat: 'dd-mm-yy',
+                minDate: 0,
+                beforeShowDay: function(date) {
+                    var dateStr = $.datepicker.formatDate('yy-mm-dd', date);
+                    return [bookedDates.indexOf(dateStr) === -1]; // Disable if booked
+                },
+                onSelect: function(dateText) {
+                    // Convert dd-mm-yyyy to yyyy-mm-dd
+                    var parts = dateText.split("-");
+                    var formattedDate = parts[2] + "-" + parts[1] + "-" + parts[0];
+
+                    // Step 3: Check if selected date is still available
+                    $.ajax({
+                        url: 'https://maabaglamukhiofficial.org/webservices/hawan/checkBookingDate',
+                        method: 'POST',
+                        data: { booking_date: formattedDate },
+                        success: function(response) {
+                            if (response.status === 'booked') {
+                                alert('This date is already booked.');
+                                $('#booking_date').val('');
+                            }
+                        }
+                    });
+                }
+            });
+        }
+    });
+});
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const form = document.querySelector('form');
+        const submitBtn = form.querySelector('button[type="submit"]');
+
+        form.addEventListener('submit', function () {
+            submitBtn.disabled = true;
+            submitBtn.innerText = "Please wait...";
+        });
+    });
+</script>
+
+<script>
+  document.getElementById("hawanBookingForm").onsubmit = function(event) {
+    var form = document.getElementById("hawanBookingForm");
+
+    // Get form values
+    var mobileNo = form.elements["mobile_no"].value;
+    var confirmMobileNo = form.elements["confirm_mobile_no"].value;
+    var email = form.elements["email"].value;
+    var name = form.elements["name"].value;
+    var bookingDate = form.elements["booking_date"].value;
+    var verificationId = form.elements["verification_id_details"].value;
+    var verificationIdDetails = form.elements["verification_id"].value; // Corrected to match the input name
+    var address = form.elements["address"].value;
+
+    // Check if any required fields are empty
+    if (!bookingDate || !name || !mobileNo || !confirmMobileNo || !email || !verificationId || !verificationIdDetails || !address) {
+      alert("Please fill in all required fields.");
+      event.preventDefault();
+      return false;
+    }
+
+    // Check for suspicious characters or invalid input patterns (e.g., bitcoin, funds, alert, URLs)
+    var suspiciousPattern = /(?:https?|ftp):\/\/[^\s/$.?#].[^\s]*|[^\w\s]|(?:bitcoin|funds|alert|payment)/i;
+    if (suspiciousPattern.test(name) || suspiciousPattern.test(mobileNo) || suspiciousPattern.test(confirmMobileNo)) {
+      alert("Invalid input detected. Please avoid suspicious characters or links.");
+      event.preventDefault();  // Stop form submission
+      return false;
+    }
+
+    // Validate mobile number format (ensure it's exactly 10 digits)
+    var mobilePattern = /^[0-9]{10}$/;
+    if (!mobilePattern.test(mobileNo)) {
+      alert("Please enter a valid mobile number with exactly 10 digits.");
+      event.preventDefault();
+      return false;
+    }
+
+    // Validate confirm mobile number (must match the original mobile number)
+    if (mobileNo !== confirmMobileNo) {
+      alert("Mobile numbers do not match.");
+      event.preventDefault();
+      return false;
+    }
+
+    // Validate email format with updated regex
+    
+    
+    // If all validations pass, allow form submission
+    return true;
+  };
+</script>
+
+
+
+</body>
+</html>
+<!-- DEBUG-VIEW ENDED 1 APPPATH/Views/hawan-booking.php -->

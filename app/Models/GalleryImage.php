@@ -1,0 +1,24 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class GalleryImage extends Model
+{
+    use HasFactory;
+
+    protected $fillable = [
+        'title',
+        'description',
+        'image_url',
+        'category',
+        'featured',
+        'order',
+    ];
+
+    protected $casts = [
+        'featured' => 'boolean',
+    ];
+}

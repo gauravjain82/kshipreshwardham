@@ -1,0 +1,10 @@
+<script src="{{ asset('assets/admin/js/jquery.min.js') }}"></script>
+      <script src="{{ asset('assets/admin/js/bootstrap.bundle.min.js') }}"></script>
+      <script src="{{ asset('assets/admin/vendor/overlay-scroll/jquery.overlayScrollbars.min.js') }}"></script>
+      <script src="{{ asset('assets/admin/vendor/overlay-scroll/custom-scrollbar.js') }}"></script>
+      <script src="{{ asset('assets/admin/vendor/apex/apexcharts.min.js') }}"></script>
+      <script src="{{ asset('assets/admin/vendor/apex/custom/common/sparkline.js') }}"></script>
+      <script src="{{ asset('assets/admin/vendor/apex/custom/dash1/sales-report.js') }}"></script>
+      <script src="{{ asset('assets/admin/vendor/apex/custom/dash1/visitors.js') }}"></script>
+      <script src="{{ asset('assets/admin/vendor/apex/custom/dash1/sparkline.js') }}"></script>
+      <script src="{{ asset('assets/admin/js/custom.js') }}"></script>
